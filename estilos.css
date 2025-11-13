@@ -1,0 +1,171 @@
+body {
+  text-align: center;
+}
+
+.separador {
+  width: 90%;                 
+  height: 1.3cm;                
+  background-color: #d9d9d9;  
+  margin: 20px auto 40px;     
+  border-radius: 10px;        
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); 
+}
+
+.espacio {
+    height: 40px; 
+}
+
+.segundo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.hailey img {
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1.0);
+  transition: transform 0.3s ease;
+}
+
+.hailey {
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 5%; 
+    margin-bottom: 40px;
+}
+
+.seccion-hailey {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    width: 85%;
+    margin: 60px auto;
+}
+
+.inforhodeintroduccion {
+    display: flex;
+    gap: 60px; 
+    width: 85%; 
+    margin: 60px auto;
+    font-size: 18pt;
+    color: #6f6f6f; 
+    text-align: centered;
+}
+
+.segundo img {
+  width: 435px;          
+  height: 450px;         
+  object-fit: cover;     
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.segundo img:hover {
+  transform: scale(1.05);
+}
+
+.infodescuento {
+    font-size: 18pt;
+    color: #6f6f6f; 
+    text-align: centered;
+}
+
+.infonuevo {
+    font-size: 18pt;
+    color: #6f6f6f; 
+    text-align: centered;
+    display: flex;
+    gap: 60px; 
+    width: 85%; 
+    margin: 60px auto;
+}
+
+.nuevoojos img {
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1.0);
+  transition: transform 0.3s ease;
+}
+
+.nuevoojos {
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 5%; 
+    margin-bottom: 40px;
+}
+
+.infocontacto {
+    font-size: 18pt;
+    color: #6f6f6f; 
+    text-align: centered;
+}
+
+.rhodefinal img {
+  width: 435px;          
+  height: 450px;         
+  object-fit: cover;     
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.videorhode
+{
+  border-radius: 10px
+}
+
+.carrusel
+{
+position: relative;
+width: 70%;
+max-width: 700px;
+margin: 50px auto;
+overflow: hidden;
+border-radius: 20px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0, 4);
+}
+
+.imagenescarrusel {
+  display: flex;
+  transition: transform 0.5s ease-in-out ;
+}
+
+.imagenescarrusel img
+{
+  position: centere;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  filter: brightness(0.9);
+}
+
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #d9d9d9;
+  color: #333;
+  padding: 10px 15px; 
+  cursor: pointer;
+  border-radius: 45%;
+  font-size: 20px;
+  border: none;
+}
+
+button.prev 
+{
+  left: 10px;
+}
+
+button.next  
+{
+  right: 10px;
+}
+
+
+
+
